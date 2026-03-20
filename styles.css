@@ -66,3 +66,33 @@ img{
     color:white;
     cursor: pointer;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 232px;
+    background-color:hsla(0,0%,0%,.2);
+    backdrop-filter:blur(16px);
+    z-index:100;
+    padding: 1rem 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    transition:left .4s;
+}
+.sidebar__logo{
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+    color:white;
+    padding: 0 0 1rem 0.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+}
+.sidbear__logo i{
+    font-size: 1.5rem;
+}
+.siSdebar__content{
+
+}
