@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Bedim Glass Sidebar</title>
 </head>
+
 <body>
     <img src="mountain-bg.png" alt="image" class="image-bg">
     <header class="header">
@@ -18,6 +20,7 @@
             <button class="header__toggle" id="header-toggle">
                 <i class="ri-apps-2-line"></i>
             </button>
+
         </div>
     </header>
     <nav class="sidebar" id="sidebar">
@@ -31,13 +34,25 @@
                     <i class="ri-dashboard-horizontal-line"></i>
                     <span>Dashboard</span>
                 </a>
-                
+
                 <div class="drop">
                     <button class="sidebar__link drop__button">
                         <i class="ri-folder-add-line"></i>
                         <span>Create</span>
                         <i class="ri-arrow-down-s-line drop__arrow"></i>
                     </button>
+
+                    <ul class="drop__list">
+                        <li>
+                            <a href="#" class="drop__item">Project</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">Archives</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">Imports</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="drop">
                     <button class="sidebar__link drop__button">
@@ -45,6 +60,21 @@
                         <span>Account</span>
                         <i class="ri-arrow-down-s-line drop__arrow"></i>
                     </button>
+
+                    <ul class="drop__list">
+                        <li>
+                            <a href="#" class="drop__item">Metrics</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">Administration</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">Payments</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">Passwords</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="drop">
                     <button class="sidebar__link drop__button">
@@ -52,23 +82,33 @@
                         <span>Profile</span>
                         <i class="ri-arrow-down-s-line drop__arrow"></i>
                     </button>
+
+                    <ul class="drop__list">
+                        <li>
+                            <a href="#" class="drop__item">Activity</a>
+                        </li>
+                        <li>
+                            <a href="#" class="drop__item">View Profile</a>
+                        </li>
+                    </ul>
                 </div>
 
-                 <a href="#" class="sidebar__link">
+                <a href="#" class="sidebar__link">
                     <i class="ri-notification-2-line"></i>
                     <span>Notificaitons</span>
                 </a>
-                 <a href="#" class="sidebar__link">
+                <a href="#" class="sidebar__link">
                     <i class="ri-shopping-cart-line"></i>
                     <span>Products</span>
                 </a>
-                 <a href="#" class="sidebar__link">
+                <a href="#" class="sidebar__link">
                     <i class="ri-settings-3-line"></i>
                     <span>Settings</span>
                 </a>
             </div>
         </div>
     </nav>
-<!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
+
 </html>
